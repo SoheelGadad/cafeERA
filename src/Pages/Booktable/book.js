@@ -14,7 +14,7 @@ import Table from "./table";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
-export default (props) => {
+function book(props) {
   const navigate = useNavigate();
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
@@ -466,4 +466,5 @@ export default (props) => {
       )}
     </div>
   );
-};
+}
+export default book;

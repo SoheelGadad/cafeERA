@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 
 import { useSelector } from "react-redux";
-export default (props) => {
+function table(props) {
   const navigate = useNavigate();
 
   const userLogin = useSelector((state) => state.userLogin);
@@ -59,4 +59,5 @@ export default (props) => {
       </Col>
     </div>
   );
-};
+}
+export default table;

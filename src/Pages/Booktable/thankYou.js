@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { useSelector } from "react-redux";
 
-export default (_) => {
+function thankyou(props) {
   const navigate = useNavigate();
 
   const userLogin = useSelector((state) => state.userLogin);
@@ -27,4 +27,5 @@ export default (_) => {
       </Row>
     </div>
   );
-};
+}
+export default thankyou;
