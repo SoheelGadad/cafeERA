@@ -22,7 +22,6 @@ const Routing = () => {
       <Route path="*" element={<NotFound />} />
 
       <Route exact path="/" element={<Home />} />
-      <Route exact path="/cafeERA" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/Book" element={<Book />} />
