@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import { useSelector } from "react-redux";
 
-function thankyou(props) {
+function Thankyou(props) {
   const navigate = useNavigate();
 
   const userLogin = useSelector((state) => state.userLogin);
@@ -28,4 +28,4 @@ function thankyou(props) {
     </div>
   );
 }
-export default thankyou;
+export default Thankyou;

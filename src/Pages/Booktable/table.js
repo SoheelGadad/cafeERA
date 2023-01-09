@@ -3,7 +3,7 @@ import { Row, Col } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 
 import { useSelector } from "react-redux";
-function table(props) {
+function Table(props) {
   const navigate = useNavigate();
 
   const userLogin = useSelector((state) => state.userLogin);
@@ -60,4 +60,4 @@ function table(props) {
     </div>
   );
 }
-export default table;
+export default Table;
