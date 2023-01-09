@@ -23,7 +23,7 @@ export default (props) => {
     if (!userInfo) {
       navigate("/login");
     }
-  }, [userInfo]);
+  }, [navigate, userInfo]);
 
   const [totalTables, setTotalTables] = useState([]);
 

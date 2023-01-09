@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "reactstrap";
 import { useNavigate } from "react-router-dom";
 
@@ -10,9 +10,9 @@ export default (props) => {
   const { userInfo } = userLogin;
   useEffect(() => {
     if (!userInfo) {
-      navigate("/login");
+      ("/login");
     }
-  }, []);
+  }, [navigate, userInfo]);
   const getRow1 = (_) => {
     let chairs = [];
     for (var i = 0; i < Math.ceil(props.chairs / 2); i++) {
