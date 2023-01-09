@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "homepage": "https://SoheelGadad.github.io/cafeERA/",
-  "proxy": "http://127.0.0.1:3005",
+  "proxy": "https://cafeera.onrender.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
