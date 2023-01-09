@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SoheelGadad.github.io/cafeERA/static/css/main.da7045b6.css",
-    "main.js": "/SoheelGadad.github.io/cafeERA/static/js/main.41de80ee.js",
-    "static/media/1.jpg": "/SoheelGadad.github.io/cafeERA/static/media/1.c405d8b83af2afaa6db5.jpg",
-    "index.html": "/SoheelGadad.github.io/cafeERA/index.html",
-    "main.da7045b6.css.map": "/SoheelGadad.github.io/cafeERA/static/css/main.da7045b6.css.map",
-    "main.41de80ee.js.map": "/SoheelGadad.github.io/cafeERA/static/js/main.41de80ee.js.map"
+    "main.css": "/cafeERA/static/css/main.b49630de.css",
+    "main.js": "/cafeERA/static/js/main.3ca091c7.js",
+    "static/media/1.jpg": "/cafeERA/static/media/1.c405d8b83af2afaa6db5.jpg",
+    "index.html": "/cafeERA/index.html",
+    "main.b49630de.css.map": "/cafeERA/static/css/main.b49630de.css.map",
+    "main.3ca091c7.js.map": "/cafeERA/static/js/main.3ca091c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.da7045b6.css",
-    "static/js/main.41de80ee.js"
+    "static/css/main.b49630de.css",
+    "static/js/main.3ca091c7.js"
   ]
 }
