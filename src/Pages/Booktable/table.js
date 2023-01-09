@@ -10,7 +10,7 @@ export default (props) => {
   const { userInfo } = userLogin;
   useEffect(() => {
     if (!userInfo) {
-      ("/login");
+      navigate("/login");
     }
   }, [navigate, userInfo]);
   const getRow1 = (_) => {
